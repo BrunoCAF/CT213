@@ -1,0 +1,6 @@
+Para a execução do algoritmo de Naive Bayes, basta executar o script main.py.
+No mesmo diretório de sua execução, também devem estar (i) o script naive_bayes.py e (ii) os arquivos de texto "Questions.py" (com as questões de treinamento separadas por enter), "Tags.py" (com as tags correspondentes às questões de treinamento, também separadas por enter) e "Test.py" (com as questões para classificação pelo algoritmo).
+Se necessário, alterar os nomes dos arquivos nas linhas 127, 128 e 134 de main.py.
+Em main.py, há o código que chama as funções implementadas para treinamento e teste, além da implementação das funções de processamento de entrada de texto. É possível, porém não recomendado, desabilitar o Laplace Smoothing, configurando laplace_correction_parameter=0.
+As funções que geram as tabelas intermediárias utilizadas no cálculo podem imprimir tais tabelas (basta "descomentar" os prints).
+Em create_occurrences_table, nas linhas 22 e 24, considerou-se levar em conta a quantidade de ocorrências da palavra para a obtenção do score de naive Bayes, armazenando tal valor ou sua raiz quadrada, porém os efeitos disso não foram investigados durante o projeto.

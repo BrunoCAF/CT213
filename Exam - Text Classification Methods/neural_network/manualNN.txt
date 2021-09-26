@@ -1,0 +1,17 @@
+Manual para o uso da rede neural
+
+-Execução do treinamento da rede:
+	1. Possuir os arquivos "Questions.txt" e "Tags.txt" com formatação adequada (uma questão em cada linha e sem caracteres especiais) para o treinamento;
+	2. As categorias das questões em "Tags.txt" devem estar cada uma na linha respectiva à questão e devem estar contidas no conjunto esperado: {'Fis', 'Mat', 'Qui', 'Port', 'Ing'};
+	3. Salvar os arquivos "Questions.txt" e "Tags.txt" na pasta Training, esta que deve ficar no mesmo diretório do script "train_nn.py";
+	4. Ter os arquivos "neural_network.py" e "utils.py" no mesmo diretório de "train_nn.py";
+	5. Executar "train_nn.py";
+	6. Os pesos da rede serão salvos no arquivo "nn_weights.h5" após o treinamento.
+
+-Execução da avaliação da rede:
+	1. Possuir os arquivos "Questions.txt" e Tags.txt" com formatação adequada (uma questão em cada linha e sem caracteres especiais) para a avaliação;
+	2. As categorias das questões em "Tags.txt" devem estar cada uma na linha respectiva à questão e devem estar contidas no conjunto esperado: {'Fis', 'Mat', 'Qui', 'Port', 'Ing'};
+	3. Salvar os arquivos "Questions.txt" e "Tags.txt" na pasta Evaluate, esta que deve ficar no mesmo diretório do script "evaluate_nn.py";
+	4. Ter os arquivos "neural_network.py" e "utils.py" no mesmo diretório de "train_nn.py";
+	5. Executar "evaluate_nn.py";
+	6. Os resultados mostram o número da questão, a classificação feita pela rede, a comparação com a classificação esperada e a classificação esperada.
