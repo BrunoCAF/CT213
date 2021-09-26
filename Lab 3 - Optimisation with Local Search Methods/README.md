@@ -1,0 +1,3 @@
+# Local Search Methods: Gradient Descent, Hill Climbing and Simulated Annealing
+
+This project explores local search methods for optimisation problems. The problem to be solved is that of understanding the motion of a ball in a Robot Soccer field, requiring the determination of cinematic coefficients, which can usually be done through Least Squares Method, but represents a simple problem to apply these optimisation algorithms on. 

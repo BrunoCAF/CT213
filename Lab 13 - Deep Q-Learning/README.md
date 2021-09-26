@@ -1,0 +1,3 @@
+# Deep Q-Learning
+
+The challenge for this project is to solve the Mountain Car Problem, by employing the Deep Q-Learning algorithm. In the experiment, I had to implement the definition of the neural network with Keras, link the action choice to the output of the NN, apply a reward engineering to help the car arrive at the top of the mountain stably and quickly, and then train the agent with the DQN. 
